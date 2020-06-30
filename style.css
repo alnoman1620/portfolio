@@ -118,10 +118,8 @@ p {
   float: left;
   width: 38%;
   text-align: center;
-  padding: 5%;
-
+  padding: 5px;
   margin: 10px;
-
   border-left: 7px solid;
   border-image: linear-gradient(lightsalmon, tomato);
   border-image-slice: 1;
@@ -167,10 +165,12 @@ p {
   }
   #social {
     height: 200px;
+    margin-top: 10vw;
     padding-bottom: -250px;
   }
   .skill {
-    width: 35%;
+    width: 40%;
     margin: 5px;
+    text-align: center;
   }
 }
