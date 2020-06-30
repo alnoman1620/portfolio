@@ -55,6 +55,7 @@ section {
   background-image: url(img/exp-bg.png);
   background-repeat: no-repeat;
   background-position: left;
+  padding-bottom: 80px;
 }
 section {
   height: 500px;
@@ -69,6 +70,7 @@ section {
   border-left: 7px solid;
   border-image: linear-gradient(lightsalmon, tomato);
   border-image-slice: 1;
+  background-color: white;
 }
 #halfstack {
   border-left: 7px solid;
