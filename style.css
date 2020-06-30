@@ -78,7 +78,7 @@ section {
   border-image-slice: 1;
 }
 footer {
-  color: white;
+  color: black;
   text-align: center;
   font-size: 16px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -104,14 +104,29 @@ p {
 
   height: 550px;
   margin-bottom: 100px;
-  background-image: linear-gradient(green, lightgreen);
-  box-shadow: 10px 10px 40px gray;
 }
 #social h1 {
   font-size: 40px;
-  color: white;
+  color: orange;
   padding-top: 10px;
   padding-bottom: 0;
+}
+.fun h1 {
+  text-align: center;
+}
+.skill {
+  float: left;
+  width: 38%;
+  text-align: center;
+  padding: 5%;
+
+  margin: 10px;
+
+  border-left: 7px solid;
+  border-image: linear-gradient(lightsalmon, tomato);
+  border-image-slice: 1;
+  background-color: white;
+  box-shadow: 10px 10px 40px gray;
 }
 @media screen and (max-width: 480px) {
   h1 {
@@ -149,5 +164,13 @@ p {
   }
   #social h1 {
     font-size: 5vw;
+  }
+  #social {
+    height: 200px;
+    padding-bottom: -250px;
+  }
+  .skill {
+    width: 35%;
+    margin: 5px;
   }
 }
